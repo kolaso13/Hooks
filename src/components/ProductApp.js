@@ -49,8 +49,8 @@ const ProductApp = () => {
             <button onClick={() => dispatch({
                 type: types.productRemoveOneFromCart,
                 payload: product.id
-            })}>Remove One</button>
-
+            })}>Remove one from cart</button>
+            
             <button onClick={() => dispatch({
                 type: types.productRemoveFromCart,
                 payload: product.id
